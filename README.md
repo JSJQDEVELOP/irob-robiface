@@ -31,16 +31,11 @@ Necessary to look at the description :
 ## Installation
 
 ## Configuration
+You set 
 
 ## Example usage
-Run the WEBMOTION tp program on the controller or open a browser and type: http://robotIP/md/webpanel.htm and click on the `Start` button (`Reset` may be needed)
-- SET: 
-  * Set the axis limits. The default values are 0, thus you have to change these to make possible any movement.
-  * Move the TCP to a predefined position (Click on a button, and wait until the robot completes the movement.) **Important: SEE NOTE NO.2**
-- JOG: Jogging the robot (Push and hold down a button, but only use just one at the same time!)
-- CART: Move the TCP +/-xyz direction and/or rotate it in the currently selected tool coordinate system. (Push and hold down a button, but only use just one at the same time!)
-- Webjoystick: http://robotIP/md/webjoystick.htm
-- Webtouchpad: http://robotIP/md/webtouchpad.htm
+  Run CMD and type node irob-robiface [option] <files>
+  Forexample: node irob-robiface getPrograms Webmotion
 
 ## Notes
 
@@ -51,7 +46,7 @@ Run the WEBMOTION tp program on the controller or open a browser and type: http:
 ## Bugs, feature requests, etc
 Please use the [GitHub issue tracker][].
 
-[GitHub issue tracker]: https://github.com/ABC-iRobotics/fanuc-webcontrol/issues
+[GitHub issue tracker]: https://github.com/JSJQDEVELOP/irob-robiface/issues
 
 ## License
 
