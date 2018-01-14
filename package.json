@@ -1,0 +1,23 @@
+{
+  "name": "irob-robiface",
+  "version": "1.0.0",
+  "description": "JS interface modul to access iROB-style robot services",
+  "main": "irob-robiface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scripts/deploy.js"
+  },
+  "keywords": [
+    "command-line",
+    "industrial",
+    "robots"
+  ],
+  "author": "Nagy Péter",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2.11.0",
+    "q": "1.5.1",
+    "querystring": "0.2.0",
+    "rest": "2.0.0"
+  }
+}
