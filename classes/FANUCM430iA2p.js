@@ -294,7 +294,7 @@ class FANUCM430iA2p extends Robot {
   }
 }
 
-exports.FANUCM430iA2p = FANUCM430iA2p
-exports.createController = function (robotParams) {
+module.exports.FANUCM430iA2p = FANUCM430iA2p
+module.exports.createController = function (robotParams) {
   return new FANUCM430iA2p(robotParams)
 }

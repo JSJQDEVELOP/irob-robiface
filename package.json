@@ -19,5 +19,8 @@
     "q": "1.5.1",
     "querystring": "0.2.0",
     "rest": "2.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
   }
 }
