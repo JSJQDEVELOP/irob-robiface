@@ -53,7 +53,7 @@ Important: the command syntax
 If you want to know which options can you choose, write in the command line this command:
   - node irob-robiface -h
 
-  This command lists executable commands, and other general information ( See figure: [figure_1](#figure_1)) .
+  This command lists executable commands, and other general information ( See figure: [figure 1](#figure_1)) .
 <!-- 
 |      |   |   |   |   |
 |------|---|---|---|---|
