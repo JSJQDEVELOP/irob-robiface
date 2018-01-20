@@ -5,11 +5,12 @@ Simple command line tool (software) to control FANUC six degree of freedom robot
 
 <!-- ![Image of fanuc-webcontrol](preview.png) -->
 
-
+<a id="figure_1"></a>
 <figure id='figure_1'>
   <img src='preview.png' alt="while using the app"/>
   <figcaption>1. While using the app</figcaption>
 </figure>
+
 
 **NOTE**: It is an experimental software. Do not use this in production systems!
 
@@ -52,13 +53,17 @@ Important: the command syntax
 If you want to know which options can you choose, write in the command line this command:
   - node irob-robiface -h
 
-  This command lists executable commands, and other general information ( See figure:<a href="#figure_1"> figure 1</a>) .
+  This command lists executable commands, and other general information ( See figure: [figure_1](#figure_1)) .
 <!-- 
 |      |   |   |   |   |
 |------|---|---|---|---|
 |      |   |   |   |   |
 |      |   |   |   |   |
 |      |   |   |   |   | -->
+
+
+
+
   Available options :
   <table>
   
