@@ -73,7 +73,7 @@ If you want to know which options can you choose, write in the command line this
     </td>
     <td style="text-indent:10px,text-align: justify;
     text-justify: inter-word;">
-      Lists executable programs ( what programs are on the robot.
+      Lists executable programs ( what programs are on the robot).
     </td>
   </tr>
 
