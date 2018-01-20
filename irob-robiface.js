@@ -59,7 +59,7 @@ program.command('getPrograms')
 * @description  This command start monitor process
 */
 program.command('startMonitor')
-.description('This command start monitor process..)')
+.description('This command start monitor process..')
 .action(function (param) {
   FANUCM430iA2p.startMonitor(param).then(function (response) {
     console.log(response)
